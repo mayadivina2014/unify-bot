@@ -1,0 +1,43 @@
+// utils/dniLang.js
+
+module.exports = {
+  es: {
+    name: 'DNI Virtual',
+    description: 'Tu documento de identidad virtual',
+    full_name: 'Nombre completo',
+    gender: 'Género',
+    birth_date: 'Fecha de nacimiento',
+    country: 'País',
+    id: 'Identificación',
+    too_young: 'Debes tener al menos 13 años para crear un DNI.',
+    dni_not_found: 'Este usuario no tiene un DNI creado.',
+    no_permission: 'No tienes permiso para borrar el DNI de otro usuario.',
+    deleted: 'El DNI de {user} ha sido borrado correctamente.',
+  },
+  pt: {
+    name: 'DNI Virtual',
+    description: 'Seu documento de identidade virtual',
+    full_name: 'Nome completo',
+    gender: 'Gênero',
+    birth_date: 'Data de nascimento',
+    country: 'País',
+    id: 'Identificação',
+    too_young: 'Você deve ter pelo menos 13 anos para criar um DNI.',
+    dni_not_found: 'Este usuário não tem um DNI criado.',
+    no_permission: 'Você não tem permissão para excluir o DNI de outro usuário.',
+    deleted: 'O DNI de {user} foi excluído com sucesso.',
+  },
+  en: {
+    name: 'Virtual ID',
+    description: 'Your virtual identity document',
+    full_name: 'Full name',
+    gender: 'Gender',
+    birth_date: 'Birth date',
+    country: 'Country',
+    id: 'Identification',
+    too_young: 'You must be at least 13 years old to create an ID.',
+    dni_not_found: 'This user has not created an ID.',
+    no_permission: 'You do not have permission to delete another user\'s ID.',
+    deleted: '{user}\'s ID has been successfully deleted.',
+  },
+};

@@ -1,0 +1,33 @@
+servers:
+  '1324823773769236491':
+    language: es
+    dniSettings:
+      country: MX
+    rolePermissions:
+      '1395888831294869504':
+        canKick: true
+        canBan: true
+        canMute: true
+        canWarn: true
+        canPurge: true
+        canTimeout: true
+        canUseDNI: true
+      '1325880973430100009':
+        canKick: true
+        canBan: false
+        canMute: true
+        canWarn: true
+        canPurge: true
+        canTimeout: true
+        canUseDNI: false
+      '1325672534598881362':
+        canKick: false
+        canBan: false
+        canMute: false
+        canWarn: false
+        canPurge: false
+        canTimeout: false
+        canUseDNI: true
+        canModifyDNI: false
+        canDeleteDNI: false
+    prefix: cl!
